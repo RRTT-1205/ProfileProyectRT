@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { ImgFondoHeaderComponent } from './components/img-fondo-header/img-fondo-header.component';
 import { RedesSocComponent } from './components/redes-soc/redes-soc.component';
+import { Profile1Component } from './components/profile1/profile1.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     ImgFondoHeaderComponent,
-    RedesSocComponent
+    RedesSocComponent,
+    Profile1Component
   ],
   imports: [
     BrowserModule,
