@@ -14,6 +14,8 @@ import { EducCertfComponent } from './components/educ-certf/educ-certf.component
 import { AptitudesComponent } from './components/aptitudes/aptitudes.component';
 import { RecomendacionesComponent } from './components/recomendaciones/recomendaciones.component';
 
+import {HttpClientModule} from '@angular/common/http';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,9 +32,11 @@ import { RecomendacionesComponent } from './components/recomendaciones/recomenda
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
-  ],
+    AppRoutingModule,
+    HttpClientModule],
+
   providers: [],
+
   bootstrap: [AppComponent]
 })
 export class AppModule { }
