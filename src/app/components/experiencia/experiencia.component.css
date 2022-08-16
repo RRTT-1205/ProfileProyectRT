@@ -1,0 +1,23 @@
+@media(min-width:600px) {
+  #logexpcws {
+    width: 70px;
+    height: 35px;
+    float: left;
+    padding-right: 10px;
+  }
+
+  #logexprui {
+      width: 70px;
+      height: 35px;
+      float: left;
+      padding-right: 10px;
+  }
+
+  #logexpkpmg{
+      width: 70px;
+      height: 35px;
+      float: left;
+      padding-right: 10px;
+    }
+}
+
