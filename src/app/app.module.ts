@@ -11,7 +11,6 @@ import { ExperienciaComponent } from './components/experiencia/experiencia.compo
 import { Profile0Component } from './components/profile0/profile0.component';
 import { PhotoComponent } from './components/photo/photo.component';
 import { EducCertfComponent } from './components/educ-certf/educ-certf.component';
-import { AptitudesComponent } from './components/aptitudes/aptitudes.component';
 import { RecomendacionesComponent } from './components/recomendaciones/recomendaciones.component';
 
 import {HttpClientModule} from '@angular/common/http';
@@ -28,7 +27,6 @@ import {HttpClientModule} from '@angular/common/http';
     Profile0Component,
     PhotoComponent,
     EducCertfComponent,
-    AptitudesComponent,
     RecomendacionesComponent
   ],
   imports: [
