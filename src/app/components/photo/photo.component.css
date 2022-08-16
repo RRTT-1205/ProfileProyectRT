@@ -2,9 +2,11 @@
 @media(min-width:600px) {
   #foto {
     position: absolute;
-    width: 20%;
+    width: 140px;
     border-radius: 100%;
-    box-shadow: 3px 3px 3px black;
-    top: 35px;
+    box-shadow: 5px 5px 5px black;
+    top: 85px;
+    float: left;
+    padding: 0.5px;
   }
 }
